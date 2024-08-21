@@ -1,5 +1,4 @@
-
-package com.mycompany.chapter6assignment;
+package com.mycompany.customercreditapp;
 
 public class Customer 
 {
@@ -16,7 +15,7 @@ public class Customer
     {
         name = newName;
     }
-    public void setCreditScore( int newCreditScore)
+    public void setCreditScore(int newCreditScore)
     {
         if(newCreditScore >= 300)
         {
@@ -58,11 +57,4 @@ public class Customer
         }
         return message;
     }
-    
-
-//public String getCreditRatingCustomer(Customer creditCompare)
-   // {
-   //     if ( )
-   // }
-    
 }
